@@ -25,4 +25,4 @@ print(f"Pi is approx {22 / 7:12.50f}")
 pi = 22 / 7
 print(f"Pi is approx {pi:12.50f}")
 
-print("changing daily")
+print("changing daily 1")
