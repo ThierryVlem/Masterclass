@@ -14,4 +14,4 @@ elif age == 900:
     print("Soryy, Yoda, you die in return of the yedi!")
 else:
     print("You're old enough to vote!")
-    print('Please put an X in the box')
+    print('Please put an X in the box mate')
