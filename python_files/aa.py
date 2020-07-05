@@ -1,10 +1,7 @@
-options = ["Learn python", "Learn java", "Go swimming", "Have dinner", "Go to bed", "Exit"]
-count = 0
+value = 8
+answer = 0
 
-choice = input("Please choose your option from the list below: ")
-for option in options:
-    if option == "Exit":
-        print("0    {}".format(option))
-    count += 1
-    print("{}    {}".format(count, option))
+for x in range(1, 13):
+    answer = value * x
+    print("{0} times {1} is {2}".format(x, value, answer))
 
