@@ -13,4 +13,8 @@ shopping_list += ["cookies"]
 print(shopping_list)
 print(id(shopping_list))
 print("Testing out git switch")
+shopping_list.append("cream")
+print(shopping_list)
+
+
 
