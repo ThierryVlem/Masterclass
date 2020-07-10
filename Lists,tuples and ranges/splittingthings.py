@@ -18,3 +18,10 @@ print(values_list)
 for index in range(len(values_list)):
     values_list[index] = int(values_list[index])
 print(values_list)
+
+# create a new list
+integer_values = []
+for value in values_list:
+    integer_values.append(int(value))
+print(integer_values)
+
